@@ -1,0 +1,72 @@
+\documentclass[11pt,a4paper]{moderncv}
+
+% moderncv themes
+%\moderncvtheme[blue]{casual}                 % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+\moderncvtheme[blue]{classic}                % idem
+
+% character encoding
+\usepackage{ucs}
+\usepackage[utf8x]{inputenc}
+\usepackage[english,romanian]{babel}
+
+% adjust the page margins
+\usepackage[scale=0.8]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}						% if you want to change the width of the column with the dates
+%\AtBeginDocument{\setlength{\maketitlenamewidth}{6cm}}  % only for the classic theme, if you want to change the width of your name placeholder (to leave more space for your address details
+\AtBeginDocument{\recomputelengths}                     % required when changes are made to page layout lengths
+
+% personal data
+\firstname{Mihai}
+\familyname{Bărbulescu}
+
+\title{Curriculum Vitae}               % optional, remove the line if not wanted
+
+\address{Str. Petre Liciu nr. 18, sector 4}{040308 București}    % optional, remove the line if not wanted
+\mobile{0722757207}                    % optional, remove the line if not wanted
+%\phone{0212303514}                      % optional, remove the line if not wanted
+\email{b12mihai@gmail.com}                      % optional, remove the line if not wanted
+%\extrainfo{additional information (optional)} % optional, remove the line if not wanted
+\photo[64pt]{cv_cover_photo.jpg}                         % '64pt' is the height the picture must be resized to and 'picture' is the name of the picture file; optional, remove the line if not wanted
+
+%\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+
+%---------------------------
+%         content
+%---------------------------
+\begin{document}
+\maketitle
+
+\section{Educație}
+\cventry{2010--prezent}{Student}{Universitatea Politehnica din București, Facultatea de Automatică și Calculatoare, secția Calculatoare}{București}{}{}{}
+\cventry{2006--2010}{Bacalaureat}{Colegiul Național ``Gheorghe Șincai''}{București}{}{}{}
+
+\section{Proiecte și experiență profesională}
+
+\cventry{2012--prezent}{Membru al asociației}{ROSEdu}{}{}{}
+\cventry{2008 -- prezent}{Lider}{Organizația Națională Cercetașii României}{Centrul Local ”Panaitescu”, București}{}{}
+\cventry{2012}{Mentor în cadrul CDL - Curs de Dezvoltare Liberă}{DEX Online}{ROSEdu}{}{}
+\cventry{2012}{Participare în cadrul concursului Robochallenge - proba de line-follower}{}{}{}{}
+\cventry{2011}{Cursant în cadrul CDL - Curs de Dezvoltare Liberă}{ROSEdu}{}{}{}
+\cventry{2008 -- 2010}{Coordonator voluntari și autor de articole de popularizare a științei}{StiintaAzi.ro}{}{}{}
+\cventry{}{Certificări: IELTS}{}{}{}{}
+
+\renewcommand{\listitemsymbol}{-} % change the symbol for lists
+
+\section{Limbi străine}
+\cvlanguage{Engleză}{Avansat}{}
+\cvlanguage{Franceză}{Începător}{}
+
+\section{Abilități și cunoștințe tehnice}
+\cvcomputer{Programare}{C, C++, Python, Matlab}{Scripting}{bash, make}
+\cvcomputer{Sisteme de operare}{Windows, Linux}{Distribuție Linux}{Ubuntu}
+\cvcomputer{Web design}{HTML, CSS}{Web development}{PHP, MySQL}
+\cvcomputer{Redactare documente}{Microsoft Office 97-2007, \LaTeX}{Sisteme de versionare}{git, svn}
+
+\section{Pasiuni relevante pentru stagiu}
+
+\cvlistitem{Comunități și dezvoltare open-source}
+\cvlistitem{Structuri de date și algoritmi}
+\cvlistitem{Calcul numeric și statistică}
+\cvlistitem{Linux}
+
+\end{document}
