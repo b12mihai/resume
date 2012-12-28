@@ -1,4 +1,5 @@
-cv-ro
-=====
+Resumes
+=======
 
-My CV in Romanian
+Select your language and download either .tex source or .pdf
+
