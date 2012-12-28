@@ -1,12 +1,14 @@
 TEX = cv_ro.tex
 PDF = $(TEX:.tex=.pdf)
 PDFLATEX = pdflatex
-CLEAN_FILES = *.aux *.log *.out
+PDFVIEW = evince
+CLEAN_FILES = *.aux *.log *.out *.dvi
 
 .PHONY: clean all
 
 all: $(PDF)
 	mv $(PDF) pdf/
+	$(PDFVIEW) pdf/$(PDF) &
 
 $(PDF): %.pdf: %.tex
 	$(PDFLATEX) $<

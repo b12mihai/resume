@@ -4,3 +4,4 @@ template.tex
 *.aux
 *.log
 *.out
+*.dvi
