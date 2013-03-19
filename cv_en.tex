@@ -1,4 +1,4 @@
-\documentclass[11pt,a4paper]{moderncv}
+\documentclass[12pt,a4paper]{moderncv}
 % moderncv themes
 %\moderncvtheme[blue]{casual}                 % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
 \moderncvtheme[blue]{classic}                % idem
@@ -10,7 +10,7 @@
 \usepackage{hyperref}
 
 % adjust the page margins
-\usepackage[scale=0.8]{geometry}
+\usepackage[scale=0.9]{geometry}
 %\setlength{\hintscolumnwidth}{3cm}						% if you want to change the width of the column with the dates
 %\AtBeginDocument{\setlength{\maketitlenamewidth}{6cm}}  % only for the classic theme, if you want to change the width of your name placeholder (to leave more space for your address details
 \AtBeginDocument{\recomputelengths}                     % required when changes are made to page layout lengths
@@ -21,7 +21,7 @@
 
 \title{Curriculum Vitae}               % optional, remove the line if not wanted
 
-%\address{Str. Petre Liciu nr. 18, sector 4}{040308 București}    % optional, remove the line if not wanted
+\address{Str. Petre Liciu nr. 18, sector 4}{040308 București}    % optional, remove the line if not wanted
 \mobile{+40722757207}                    % optional, remove the line if not wanted
 %\phone{0212303514}                      % optional, remove the line if not wanted
 \email{b12mihai@gmail.com}                      % optional, remove the line if not wanted
@@ -45,7 +45,7 @@
 \cventry{2011 -- present}{InGeAR - Electrical Engineering, Automatic Control and Robotics Center}{Politehnica University of Bucharest}{}{}{}
 \cvlistitem{Participation at national stage - Robochallenge - with a Line Following Robot}
 \cvlistitem{Junior Research Assistant Internship - summer 2012}
-\cventry{2011--present}{ROSEdu - Romanian Open Source Education}{Community and Association's member}{}{}{}
+\cventry{2011--2012}{ROSEdu - Romanian Open Source Education}{Community and Association's member}{}{}{}
 \cvlistitem{Comunity Development Lab (CDL) - student and mentor at DEX Online project in 2011}
 \cvlistitem{ROSEdu Summer Workshops - Coordinator and organizer of the first edition in 2012}
 \cventry{2010 -- present}{Educational Personal Projects}{\url{https://github.com/b12mihai}}{}{}{}
@@ -58,15 +58,21 @@
 \cvlanguage{English}{Fluent}{IELTS Certificate, band score 7}
 \cvlanguage{French}{Beginner}{}
 
-\section{Relevant skills}
-\cvcomputer{Programming}{C, C++, Python, Matlab}{Scripting}{bash, make}
-\cvcomputer{Operating Systems}{Windows, Linux}{Linux Distributions}{Debian based}
-\cvcomputer{Document typesetting}{\LaTeX}{Versionare}{git}
+\section{Computer Science Skills}
+\cvcomputer{\textbf{Programming}}
+{ \begin{itemize}
+   \item \textbf{Fluent: } C under UNIX
+   \item \textbf{Familiar with: } C++, Python
+  \end{itemize}
+}
+{\textbf{Scripting}}{bash, make}
+\cvcomputer{\textbf{Operating Systems}}{Linux}{\textbf{Networking}}{Basic knowledge about layers 1, 2, 3}
+\cvcomputer{\textbf{Document typesetting}}{\LaTeX}{\textbf{Version control}}{git}
 
-\section{Relevant interests}
+\section{Interests and hobbies}
 
-\cvlistitem{Open Source Development and Communities}
-\cvlistitem{Microcontrollers Design and Programming}
+\cvlistitem{Open Source Hardware and Software}
+\cvlistitem{Electronics and Microcontroller Programming}
 \cvlistitem{Numerical Computing}
 
 

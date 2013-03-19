@@ -1,4 +1,4 @@
-\documentclass[11pt,a4paper]{moderncv}
+\documentclass[12pt,a4paper]{moderncv}
 
 
 % moderncv themes
@@ -12,7 +12,7 @@
 \usepackage{hyperref}
 
 % adjust the page margins
-\usepackage[scale=0.8]{geometry}
+\usepackage[scale=0.9]{geometry}
 %\setlength{\hintscolumnwidth}{3cm}						% if you want to change the width of the column with the dates
 %\AtBeginDocument{\setlength{\maketitlenamewidth}{6cm}}  % only for the classic theme, if you want to change the width of your name placeholder (to leave more space for your address details
 \AtBeginDocument{\recomputelengths}                     % required when changes are made to page layout lengths
@@ -23,7 +23,7 @@
 
 \title{Curriculum Vitae}               % optional, remove the line if not wanted
 
-%\address{Str. Petre Liciu nr. 18, sector 4}{040308 București}    % optional, remove the line if not wanted
+\address{Str. Petre Liciu nr. 18, sector 4}{040308 București}    % optional, remove the line if not wanted
 \mobile{+40722757207}                    % optional, remove the line if not wanted
 %\phone{0212303514}                      % optional, remove the line if not wanted
 \email{b12mihai@gmail.com}                      % optional, remove the line if not wanted
@@ -45,11 +45,11 @@
 \section{Proiecte și experiență profesională}
 
 \cventry{2011--prezent}{ROSEdu - Romanian Open Source Education}{Membru al asociației și al comunității}{}{}{}
-\cvlistitem{Cursul de dezvoltare liberă (CDL) - cursant și mentor la proiectul DEX Online (2011)}
+\cvlistitem{Cursul de dezvoltare liberă (CDL) - cursant și ulterior mentor la proiectul DEX Online (2011)}
 \cvlistitem{Organizator și coordonator ROSEdu Summer Workshops, prima ediție (2012)}
-\cventry{2011 -- prezent}{InGeAR - centrul de Inginerie Electrică, Automatizări și Robotică}{Universitatea Politehnica București}{}{}{}
+\cventry{2011 -- prezent}{InGeAR - centrul de Inginerie Electrică, Automatizări și Robotică}{UPB}{}{}{}
 \cvlistitem{Participare la concursul ETTI Robochallenge - proba Line Follower, 2012}
-\cvlistitem{Junior Research Assistant Internship - vară 2012}
+\cvlistitem{Junior Research Assistant - Internship vară 2012}
 \cventry{2010 -- prezent}{Proiecte didactice}{\url{https://github.com/b12mihai}}{}{}{}
 %\cventry{2008 -- prezent}{Lider}{Organizația Națională Cercetașii României}{Centrul Local ”Panaitescu”, București}{}{}
 %\cventry{2008 -- 2010}{Coordonator voluntari și autor de articole de popularizare a științei}{StiintaAzi.ro}{}{}{}
@@ -61,15 +61,22 @@
 \cvlanguage{Franceză}{Începător}{}
 
 \section{Abilități și cunoștințe tehnice}
-\cvcomputer{Programare}{C, C++, Python, Matlab}{Scripting}{bash, make}
-\cvcomputer{Sisteme de operare}{Windows, Linux}{Distribuție Linux}{Debian based}
+\cvcomputer{Programare}
+{ \begin{itemize}
+   \item \textbf{Avansat: } C under UNIX
+   \item \textbf{Începător: } C++, Python
+  \end{itemize}
+}
+{Scripting}{bash, make}
+\cvcomputer{Sisteme de operare}{Linux}{Rețele}{Cunoștințe generale despre nivelele 1, 2, 3}
 \cvcomputer{Redactare documente}{\LaTeX}{Versionare}{git}
 
 \section{Pasiuni relevante pentru cariera viitoare}
 
 \cvlistitem{Comunități și dezvoltare open-source}
-\cvlistitem{Proiectarea și programarea microcontrollerelor}
-\cvlistitem{Calcul numeric}
+\cvlistitem{Proiectarea dispozitivelor electronice și programarea microcontrollerelor}
+\cvlistitem{Fotbal, baschet, ciclism, turism montan}
+% \cvlistitem{Programare in C}
 
 
 \end{document}
